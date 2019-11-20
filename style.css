@@ -1,0 +1,50 @@
+body {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+div, section {
+  border: 1px dashed black;
+  width: 100%;
+  background-color: whitesmoke;
+  color:black;
+  margin: 30px 20px 30px 20px;
+  padding: 10px;
+}
+img {
+  border: 1px solid black;
+  margin: 0px;
+}
+.navbar {
+  display: inline-block;
+}
+li {
+  float: left;
+  padding: 0.5em;
+  text-align: center;
+  width: 150px;
+  height: 70px;
+}
+
+.nav {
+  margin-left: 30px;
+}
+
+.heroimage {
+  margin: 0px 30px 30px 30px;
+}
+
+#content {
+  overflow: scroll;
+}
+.banner {
+  display: inline-block;
+  margin: 0px 30px 30px 30px;
+}
+#subBanner1, #subBanner2, #subBanner3 {
+  float: left;
+  margin-left: 30px;
+}
+#subBanner1 {
+  margin-left: 0px;
+}
