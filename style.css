@@ -85,6 +85,10 @@ button {
   border-radius: 5px;
   border-color: black;
 }
+button:hover {
+  background-color: black;
+  color: white;
+}
 footer {
   /* border: 1px dashed black; */
   width: 100%;
