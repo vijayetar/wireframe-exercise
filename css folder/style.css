@@ -1,15 +1,22 @@
 body {
-  width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+  background-color: white;
+  box-sizing: border-box;
+}
+main, ul {
+  width: 960px;
   margin: 0px auto;
 }
 
 div, section {
   /* border: 1px dashed black; */
   width: 100%;
-  background-color: whitesmoke;
+  background-color: white;
   color:black;
-  margin: 0px 20px 30px 20px;
   padding: 10px;
+  margin: 0px 0px 30px 0px;
+
 }
 img {
   /* border: 1px solid black; */
@@ -17,6 +24,7 @@ img {
 }
 header> div {
   display: inline-block;
+  background-color: #838383;
 }
 li {
   float: left;
@@ -24,21 +32,18 @@ li {
   text-align: center;
   width: 150px;
   height: 70px;
-  vertical-align: baseline;
 }
 
 .nav {
   margin-left: 30px;
+  color:#a9a9a9;
 }
 
-main> div {
-  margin: 0px 30px 30px 30px;
-}
 
 main> section {
   display: inline-block;
-  margin: 0px 30px 30px 30px;
 }
+
 main> section> p {
   float: left;
   margin-left: 30px; 
@@ -46,14 +51,11 @@ main> section> p {
 #subBanner1 {
   margin-left: 0px;
 }
-#content {
-  margin: 0px 30px 30px 30px;
-}
 article {
   float: right;
   width: 480px;
   height: 400px;
-  margin: 0px 30px 30px 0px;
+  /* margin: 0px 30px 30px 0px; */
   /* border: 1px solid black; */
 }
 article>h3, article>p {
@@ -79,22 +81,23 @@ button {
   width: 20%;
   height: 5%;
   margin: 0px;
-  background-color: #DDD;
+  background-color: #000;
   font-size: 1em;
-  color: black;
-  border-radius: 5px;
+  color: white;
+  /* border-radius: 5px; */
   border-color: black;
+  transition-duration: 350ms;
 }
 button:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 footer {
   /* border: 1px dashed black; */
   width: 100%;
   height: 170px;
-  background-color: whitesmoke;
+  background-color: #838383;
   color:black;
-  margin: 0px 0px 30px 30px;
+  /* margin: 0px 0px 30px 30px; */
   padding: 10px;
 }
